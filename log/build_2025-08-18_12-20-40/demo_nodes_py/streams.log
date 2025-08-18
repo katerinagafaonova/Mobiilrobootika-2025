@@ -1,0 +1,58 @@
+[0.721s] Invoking command in '/home/student18/ros2_ws/src/demos/demo_nodes_py': PYTHONPATH=/home/student18/ros2_ws/build/demo_nodes_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/demo_nodes_py build --build-base /home/student18/ros2_ws/build/demo_nodes_py/build install --record /home/student18/ros2_ws/build/demo_nodes_py/install.log --single-version-externally-managed install_data
+[0.892s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.892s]   warnings.warn(msg)
+[0.926s] /usr/local/lib/python3.10/dist-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[0.926s] !!
+[0.926s] 
+[0.926s]         ********************************************************************************
+[0.926s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[0.926s] 
+[0.926s]         License :: OSI Approved :: Apache Software License
+[0.927s] 
+[0.927s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[0.927s]         ********************************************************************************
+[0.927s] 
+[0.927s] !!
+[0.927s]   self._finalize_license_expression()
+[0.996s] running egg_info
+[1.013s] writing ../../../build/demo_nodes_py/demo_nodes_py.egg-info/PKG-INFO
+[1.013s] writing dependency_links to ../../../build/demo_nodes_py/demo_nodes_py.egg-info/dependency_links.txt
+[1.014s] writing entry points to ../../../build/demo_nodes_py/demo_nodes_py.egg-info/entry_points.txt
+[1.014s] writing requirements to ../../../build/demo_nodes_py/demo_nodes_py.egg-info/requires.txt
+[1.014s] writing top-level names to ../../../build/demo_nodes_py/demo_nodes_py.egg-info/top_level.txt
+[1.022s] /usr/lib/python3/dist-packages/pbr/git.py:28: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[1.022s]   import pkg_resources
+[1.179s] reading manifest file '../../../build/demo_nodes_py/demo_nodes_py.egg-info/SOURCES.txt'
+[1.181s] writing manifest file '../../../build/demo_nodes_py/demo_nodes_py.egg-info/SOURCES.txt'
+[1.181s] running build
+[1.182s] running build_py
+[1.182s] copying demo_nodes_py/__init__.py -> /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py
+[1.182s] copying demo_nodes_py/topics/listener_qos.py -> /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics
+[1.183s] copying demo_nodes_py/topics/__init__.py -> /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics
+[1.183s] copying demo_nodes_py/topics/talker_qos.py -> /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics
+[1.183s] copying demo_nodes_py/topics/listener_serialized.py -> /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics
+[1.184s] copying demo_nodes_py/topics/listener.py -> /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics
+[1.184s] copying demo_nodes_py/topics/talker.py -> /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics
+[1.185s] copying demo_nodes_py/services/add_two_ints_client.py -> /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services
+[1.185s] copying demo_nodes_py/services/add_two_ints_client_async.py -> /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services
+[1.185s] copying demo_nodes_py/services/__init__.py -> /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services
+[1.185s] copying demo_nodes_py/services/add_two_ints_server.py -> /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services
+[1.186s] running install
+[1.191s] running install_lib
+[1.209s] running install_data
+[1.210s] copying resource/demo_nodes_py -> /home/student18/ros2_ws/install/demo_nodes_py/share/ament_index/resource_index/packages
+[1.210s] copying package.xml -> /home/student18/ros2_ws/install/demo_nodes_py/share/demo_nodes_py
+[1.210s] running install_egg_info
+[1.228s] removing '/home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py-0.20.5-py3.10.egg-info' (and everything under it)
+[1.228s] Copying ../../../build/demo_nodes_py/demo_nodes_py.egg-info to /home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py-0.20.5-py3.10.egg-info
+[1.229s] running install_scripts
+[1.265s] Installing add_two_ints_client script to /home/student18/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[1.265s] Installing add_two_ints_client_async script to /home/student18/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[1.266s] Installing add_two_ints_server script to /home/student18/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[1.266s] Installing listener script to /home/student18/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[1.267s] Installing listener_qos script to /home/student18/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[1.267s] Installing listener_serialized script to /home/student18/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[1.267s] Installing talker script to /home/student18/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[1.268s] Installing talker_qos script to /home/student18/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[1.268s] writing list of installed files to '/home/student18/ros2_ws/build/demo_nodes_py/install.log'
+[1.296s] Invoked command in '/home/student18/ros2_ws/src/demos/demo_nodes_py' returned '0': PYTHONPATH=/home/student18/ros2_ws/build/demo_nodes_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/demo_nodes_py build --build-base /home/student18/ros2_ws/build/demo_nodes_py/build install --record /home/student18/ros2_ws/build/demo_nodes_py/install.log --single-version-externally-managed install_data

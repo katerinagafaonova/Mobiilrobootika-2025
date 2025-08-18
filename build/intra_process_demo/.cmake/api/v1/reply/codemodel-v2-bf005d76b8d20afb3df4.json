@@ -1,0 +1,133 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-980ed40607855a5ec80c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "intra_process_demo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_node-1f30c0488450dbd8c468.json",
+					"name" : "camera_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cyclic_pipeline::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cyclic_pipeline-eed839f33b835f10de32.json",
+					"name" : "cyclic_pipeline",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_pipeline_all_in_one::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_pipeline_all_in_one-6be52ebad8bd9496e783.json",
+					"name" : "image_pipeline_all_in_one",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_pipeline_with_two_image_view::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_pipeline_with_two_image_view-ed4d8145dbf34608f019.json",
+					"name" : "image_pipeline_with_two_image_view",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_view_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_view_node-6eba31adb97478415d4b.json",
+					"name" : "image_view_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intra_process_demo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intra_process_demo_uninstall-6302afb40642500810ef.json",
+					"name" : "intra_process_demo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "two_node_pipeline::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-two_node_pipeline-158c1d7d229c35746c9d.json",
+					"name" : "two_node_pipeline",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0dd07677025a38d8da95.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "watermark_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-watermark_node-ce738f739f25e5f7b24e.json",
+					"name" : "watermark_node",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/student18/ros2_ws/build/intra_process_demo",
+		"source" : "/home/student18/ros2_ws/src/demos/intra_process_demo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

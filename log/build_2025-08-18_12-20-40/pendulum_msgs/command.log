@@ -1,0 +1,4 @@
+Invoking command in '/home/student18/ros2_ws/build/pendulum_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student18/ros2_ws/build/pendulum_msgs -- -j4 -l4
+Invoked command in '/home/student18/ros2_ws/build/pendulum_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student18/ros2_ws/build/pendulum_msgs -- -j4 -l4
+Invoking command in '/home/student18/ros2_ws/build/pendulum_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/student18/ros2_ws/build/pendulum_msgs
+Invoked command in '/home/student18/ros2_ws/build/pendulum_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/student18/ros2_ws/build/pendulum_msgs

@@ -1,0 +1,84 @@
+[0.012s] Invoking command in '/home/student18/ros2_ws/build/logging_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/student18/ros2_ws/src/demos/logging_demo -DCMAKE_INSTALL_PREFIX=/home/student18/ros2_ws/install/logging_demo
+[0.115s] -- The C compiler identification is GNU 11.4.0
+[0.214s] -- The CXX compiler identification is GNU 11.4.0
+[0.227s] -- Detecting C compiler ABI info
+[0.348s] -- Detecting C compiler ABI info - done
+[0.364s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.365s] -- Detecting C compile features
+[0.366s] -- Detecting C compile features - done
+[0.373s] -- Detecting CXX compiler ABI info
+[0.570s] -- Detecting CXX compiler ABI info - done
+[0.586s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.587s] -- Detecting CXX compile features
+[0.588s] -- Detecting CXX compile features - done
+[0.593s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.301s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.501s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.607s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.617s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.641s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.667s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.700s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.793s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.799s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.964s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.005s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.074s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.089s] -- Looking for pthread.h
+[2.229s] -- Looking for pthread.h - found
+[2.229s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.356s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.358s] -- Found Threads: TRUE  
+[2.457s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.504s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.068s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.629s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.865s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.912s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.914s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.960s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.960s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.960s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.960s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.011s] -- Found PythonExtra: .so  
+[4.082s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.192s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.193s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.193s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.229s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.232s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.234s] -- Configured cppcheck include dirs: /home/student18/ros2_ws/src/demos/logging_demo/include
+[4.235s] -- Configured cppcheck exclude dirs and/or files: 
+[4.238s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.238s] -- Configured cpplint exclude dirs and/or files: 
+[4.241s] -- Added test 'lint_cmake' to check CMake code style
+[4.245s] -- Added test 'uncrustify' to check C / C++ code style
+[4.245s] -- Configured uncrustify additional arguments: 
+[4.246s] -- Added test 'xmllint' to check XML markup files
+[4.251s] -- Configuring done
+[4.322s] -- Generating done
+[4.352s] -- Build files have been written to: /home/student18/ros2_ws/build/logging_demo
+[4.375s] Invoked command in '/home/student18/ros2_ws/build/logging_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/student18/ros2_ws/src/demos/logging_demo -DCMAKE_INSTALL_PREFIX=/home/student18/ros2_ws/install/logging_demo
+[4.376s] Invoking command in '/home/student18/ros2_ws/build/logging_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student18/ros2_ws/build/logging_demo -- -j4 -l4
+[4.464s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.077s] [  2%] Built target logging_demo__cpp
+[5.112s] [  5%] [32mBuilding CXX object CMakeFiles/logger_usage_component.dir/src/logger_usage_component.cpp.o[0m
+[14.343s] [  8%] [32m[1mLinking CXX shared library liblogger_usage_component.so[0m
+[14.741s] [  8%] Built target logger_usage_component
+[14.761s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[15.215s] [ 13%] [32mBuilding CXX object CMakeFiles/logging_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/logging_demo/srv/config_logger__type_support.cpp.o[0m
+[15.643s] [ 16%] [32m[1mLinking CXX shared library liblogging_demo__rosidl_typesupport_cpp.so[0m
+[15.737s] [ 16%] Built target logging_demo__rosidl_typesupport_cpp
+[15.777s] [ 18%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[16.335s] [ 21%] [32mBuilding CXX object CMakeFiles/logging_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/logging_demo/srv/detail/dds_fastrtps/config_logger__type_support.cpp.o[0m
+[17.105s] [ 24%] [32m[1mLinking CXX shared library liblogging_demo__rosidl_typesupport_fastrtps_cpp.so[0m
+[17.232s] [ 24%] Built target logging_demo__rosidl_typesupport_fastrtps_cpp
+[17.251s] [ 27%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[17.738s] [ 29%] [32mBuilding CXX object CMakeFiles/logging_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/logging_demo/srv/detail/config_logger__type_support.cpp.o[0m
+[18.493s] [ 32%] [32m[1mLinking CXX shared library liblogging_demo__rosidl_typesupport_introspection_cpp.so[0m
+[18.596s] [ 32%] Built target logging_demo__rosidl_typesupport_introspection_cpp
+[18.629s] [ 35%] [32mBuilding CXX object CMakeFiles/logger_config_component.dir/src/logger_config_component.cpp.o[0m
+[26.834s] [ 37%] [32m[1mLinking CXX shared library liblogger_config_component.so[0m
+[27.102s] [ 37%] Built target logger_config_component
+[27.149s] [ 37%] Built target ament_cmake_python_copy_logging_demo
+[27.183s] [ 40%] [32mBuilding CXX object CMakeFiles/logging_demo_main.dir/src/logging_demo_main.cpp.o[0m

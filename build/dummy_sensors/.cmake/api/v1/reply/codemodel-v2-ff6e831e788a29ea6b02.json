@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e5ff38ac3159524b6892.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "dummy_sensors",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "dummy_joint_states::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dummy_joint_states-3ed526b34b66f1b8f0c6.json",
+					"name" : "dummy_joint_states",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dummy_laser::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dummy_laser-10481c6a9569957f9a19.json",
+					"name" : "dummy_laser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dummy_sensors_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dummy_sensors_uninstall-14ff05ae210ac36a7556.json",
+					"name" : "dummy_sensors_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9140f40243fa0d7e4097.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/student18/ros2_ws/build/dummy_sensors",
+		"source" : "/home/student18/ros2_ws/src/demos/dummy_robot/dummy_sensors"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

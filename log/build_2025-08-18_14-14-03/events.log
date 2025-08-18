@@ -1,0 +1,78 @@
+[0.000000] (-) TimerEvent: {}
+[0.000710] (-) JobUnselected: {'identifier': 'action_tutorials_cpp'}
+[0.001126] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.001206] (-) JobUnselected: {'identifier': 'action_tutorials_py'}
+[0.001549] (-) JobUnselected: {'identifier': 'composition'}
+[0.001788] (-) JobUnselected: {'identifier': 'demo_nodes_cpp'}
+[0.001933] (-) JobUnselected: {'identifier': 'demo_nodes_cpp_native'}
+[0.002003] (-) JobUnselected: {'identifier': 'demo_nodes_py'}
+[0.002304] (-) JobUnselected: {'identifier': 'dummy_map_server'}
+[0.002445] (-) JobUnselected: {'identifier': 'dummy_robot_bringup'}
+[0.002523] (-) JobUnselected: {'identifier': 'dummy_sensors'}
+[0.002674] (-) JobUnselected: {'identifier': 'image_tools'}
+[0.002740] (-) JobUnselected: {'identifier': 'intra_process_demo'}
+[0.002891] (-) JobUnselected: {'identifier': 'lifecycle'}
+[0.002983] (-) JobUnselected: {'identifier': 'lifecycle_py'}
+[0.003047] (-) JobUnselected: {'identifier': 'logging_demo'}
+[0.003108] (-) JobUnselected: {'identifier': 'pendulum_control'}
+[0.003168] (-) JobUnselected: {'identifier': 'pendulum_msgs'}
+[0.003261] (-) JobUnselected: {'identifier': 'quality_of_service_demo_cpp'}
+[0.003406] (-) JobUnselected: {'identifier': 'quality_of_service_demo_py'}
+[0.003482] (-) JobUnselected: {'identifier': 'topic_monitor'}
+[0.003543] (-) JobUnselected: {'identifier': 'topic_statistics_demo'}
+[0.003603] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.003675] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.003810] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.099796] (-) TimerEvent: {}
+[0.200507] (-) TimerEvent: {}
+[0.301128] (-) TimerEvent: {}
+[0.401956] (-) TimerEvent: {}
+[0.502721] (-) TimerEvent: {}
+[0.603346] (-) TimerEvent: {}
+[0.630922] (my_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package', 'build', '--build-base', '/home/student18/ros2_ws/build/my_package/build', 'install', '--record', '/home/student18/ros2_ws/build/my_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/student18/ros2_ws/src/my_package', 'env': {'USER': 'student18', 'SSH_CLIENT': '172.16.20.120 54661 22', 'GIT_ASKPASS': '/home/student18/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh', 'SHLVL': '0', 'BROWSER': '/home/student18/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/student18', 'OLDPWD': '/home/student18/ros2_ws', 'TERM_PROGRAM_VERSION': '1.89.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-a84b21f0-1bdd-473a-9cb0-d6291a36e285.sock', 'VSCODE_GIT_ASKPASS_MAIN': '/home/student18/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'VSCODE_GIT_ASKPASS_NODE': '/home/student18/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node', 'LC_CTYPE': 'C.UTF-8', 'COLORTERM': 'truecolor', 'LOGNAME': 'student18', '_': '/home/student18/ros2_ws', 'TERM': 'xterm-256color', 'PATH': '/home/student18/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-a5d623fe29.sock', 'SHELL': '/bin/sh', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/student18/ros2_ws/build/my_package', 'SSH_CONNECTION': '172.16.20.120 54661 172.18.0.28 22', 'COLCON': '1', 'PYTHONPATH': '/home/student18/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student18/ros2_ws/install/my_package/lib/python3.10/site-packages:'}, 'shell': False}
+[0.703479] (-) TimerEvent: {}
+[0.796998] (my_package) StderrLine: {'line': b"/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[0.797326] (my_package) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[0.803578] (-) TimerEvent: {}
+[0.872470] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[0.883627] (my_package) StdoutLine: {'line': b'writing ../../build/my_package/my_package.egg-info/PKG-INFO\n'}
+[0.884254] (my_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[0.884672] (my_package) StdoutLine: {'line': b'writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt\n'}
+[0.885003] (my_package) StdoutLine: {'line': b'writing requirements to ../../build/my_package/my_package.egg-info/requires.txt\n'}
+[0.885240] (my_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt\n'}
+[0.891828] (my_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pbr/git.py:28: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.\n'}
+[0.892301] (my_package) StderrLine: {'line': b'  import pkg_resources\n'}
+[0.903697] (-) TimerEvent: {}
+[0.983717] (my_package) StdoutLine: {'line': b"reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[0.984675] (my_package) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.985676] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[0.986249] (my_package) StdoutLine: {'line': b'running build\n'}
+[0.988180] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[0.989738] (my_package) StdoutLine: {'line': b'copying my_package/__init__.py -> /home/student18/ros2_ws/build/my_package/build/lib/my_package\n'}
+[0.991032] (my_package) StdoutLine: {'line': b'copying my_package/my_node.py -> /home/student18/ros2_ws/build/my_package/build/lib/my_package\n'}
+[0.991449] (my_package) StdoutLine: {'line': b'copying my_package/subscriber_node.py -> /home/student18/ros2_ws/build/my_package/build/lib/my_package\n'}
+[0.991849] (my_package) StdoutLine: {'line': b'copying my_package/publisher_node.py -> /home/student18/ros2_ws/build/my_package/build/lib/my_package\n'}
+[0.994563] (my_package) StdoutLine: {'line': b'running install\n'}
+[0.995650] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[1.003813] (-) TimerEvent: {}
+[1.014216] (my_package) StdoutLine: {'line': b'copying /home/student18/ros2_ws/build/my_package/build/lib/my_package/my_node.py -> /home/student18/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package\n'}
+[1.014547] (my_package) StdoutLine: {'line': b'copying /home/student18/ros2_ws/build/my_package/build/lib/my_package/subscriber_node.py -> /home/student18/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package\n'}
+[1.014800] (my_package) StdoutLine: {'line': b'copying /home/student18/ros2_ws/build/my_package/build/lib/my_package/publisher_node.py -> /home/student18/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package\n'}
+[1.015704] (my_package) StdoutLine: {'line': b'byte-compiling /home/student18/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_node.py to my_node.cpython-310.pyc\n'}
+[1.016385] (my_package) StdoutLine: {'line': b'byte-compiling /home/student18/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/subscriber_node.py to subscriber_node.cpython-310.pyc\n'}
+[1.017104] (my_package) StdoutLine: {'line': b'byte-compiling /home/student18/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/publisher_node.py to publisher_node.cpython-310.pyc\n'}
+[1.017917] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[1.018362] (my_package) StdoutLine: {'line': b'copying resource/my_package -> /home/student18/ros2_ws/install/my_package/share/ament_index/resource_index/packages\n'}
+[1.018772] (my_package) StdoutLine: {'line': b'copying package.xml -> /home/student18/ros2_ws/install/my_package/share/my_package\n'}
+[1.019023] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.044262] (my_package) StdoutLine: {'line': b"removing '/home/student18/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.044932] (my_package) StdoutLine: {'line': b'Copying ../../build/my_package/my_package.egg-info to /home/student18/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info\n'}
+[1.046713] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[1.078987] (my_package) StdoutLine: {'line': b'Installing my_node script to /home/student18/ros2_ws/install/my_package/lib/my_package\n'}
+[1.079276] (my_package) StdoutLine: {'line': b'Installing publisher_node script to /home/student18/ros2_ws/install/my_package/lib/my_package\n'}
+[1.079608] (my_package) StdoutLine: {'line': b'Installing subscriber_node script to /home/student18/ros2_ws/install/my_package/lib/my_package\n'}
+[1.079984] (my_package) StdoutLine: {'line': b"writing list of installed files to '/home/student18/ros2_ws/build/my_package/install.log'\n"}
+[1.103970] (-) TimerEvent: {}
+[1.107757] (my_package) CommandEnded: {'returncode': 0}
+[1.122101] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[1.123183] (-) EventReactorShutdown: {}

@@ -1,0 +1,122 @@
+[0.018s] Invoking command in '/home/student18/ros2_ws/build/composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/student18/ros2_ws/src/demos/composition -DCMAKE_INSTALL_PREFIX=/home/student18/ros2_ws/install/composition
+[0.218s] -- The C compiler identification is GNU 11.4.0
+[0.424s] -- The CXX compiler identification is GNU 11.4.0
+[0.452s] -- Detecting C compiler ABI info
+[0.677s] -- Detecting C compiler ABI info - done
+[0.708s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.710s] -- Detecting C compile features
+[0.710s] -- Detecting C compile features - done
+[0.716s] -- Detecting CXX compiler ABI info
+[0.896s] -- Detecting CXX compiler ABI info - done
+[0.935s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.936s] -- Detecting CXX compile features
+[0.938s] -- Detecting CXX compile features - done
+[0.946s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.872s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.130s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[2.228s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.237s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.250s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.273s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.305s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.396s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[2.456s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.460s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.608s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.648s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.727s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.764s] -- Looking for pthread.h
+[2.921s] -- Looking for pthread.h - found
+[2.922s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.166s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.170s] -- Found Threads: TRUE  
+[3.363s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[3.604s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.058s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.099s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.106s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.107s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.107s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.108s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.150s] -- Found PythonExtra: .so  
+[4.176s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.183s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.185s] -- Configured cppcheck include dirs: /home/student18/ros2_ws/src/demos/composition/include
+[4.186s] -- Configured cppcheck exclude dirs and/or files: 
+[4.191s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.192s] -- Configured cpplint exclude dirs and/or files: 
+[4.193s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.202s] -- Added test 'lint_cmake' to check CMake code style
+[4.202s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.212s] -- Added test 'uncrustify' to check C / C++ code style
+[4.214s] -- Configured uncrustify additional arguments: 
+[4.216s] -- Added test 'xmllint' to check XML markup files
+[4.221s] -- Configuring done
+[4.329s] -- Generating done
+[4.370s] -- Build files have been written to: /home/student18/ros2_ws/build/composition
+[4.416s] Invoked command in '/home/student18/ros2_ws/build/composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/student18/ros2_ws/src/demos/composition -DCMAKE_INSTALL_PREFIX=/home/student18/ros2_ws/install/composition
+[4.423s] Invoking command in '/home/student18/ros2_ws/build/composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student18/ros2_ws/build/composition -- -j4 -l4
+[4.617s] [  6%] [32mBuilding CXX object CMakeFiles/listener_component.dir/src/listener_component.cpp.o[0m
+[4.633s] [ 12%] [32mBuilding CXX object CMakeFiles/talker_component.dir/src/talker_component.cpp.o[0m
+[4.655s] [ 18%] [32mBuilding CXX object CMakeFiles/server_component.dir/src/server_component.cpp.o[0m
+[4.664s] [ 25%] [32mBuilding CXX object CMakeFiles/node_like_listener_component.dir/src/node_like_listener_component.cpp.o[0m
+[28.283s] [ 31%] [32m[1mLinking CXX shared library libserver_component.so[0m
+[28.957s] [ 31%] Built target server_component
+[29.970s] [ 37%] [32m[1mLinking CXX shared library libtalker_component.so[0m
+[31.348s] [ 37%] Built target talker_component
+[41.709s] [ 43%] [32m[1mLinking CXX shared library libnode_like_listener_component.so[0m
+[43.226s] [ 43%] Built target node_like_listener_component
+[59.701s] [ 50%] [32m[1mLinking CXX shared library liblistener_component.so[0m
+[60.474s] [ 50%] Built target listener_component
+[60.538s] [ 56%] [32mBuilding CXX object CMakeFiles/dlopen_composition.dir/src/dlopen_composition.cpp.o[0m
+[70.501s] [ 62%] [32m[1mLinking CXX executable dlopen_composition[0m
+[70.769s] [ 62%] Built target dlopen_composition
+[70.852s] [ 68%] [32mBuilding CXX object CMakeFiles/client_component.dir/src/client_component.cpp.o[0m
+[83.638s] [ 75%] [32m[1mLinking CXX shared library libclient_component.so[0m
+[83.940s] [ 75%] Built target client_component
+[83.975s] [ 81%] [32mBuilding CXX object CMakeFiles/manual_composition.dir/src/manual_composition.cpp.o[0m
+[91.957s] [ 87%] [32m[1mLinking CXX executable manual_composition[0m
+[92.546s] [ 87%] Built target manual_composition
+[92.620s] [ 93%] [32mBuilding CXX object CMakeFiles/linktime_composition.dir/src/linktime_composition.cpp.o[0m
+[101.652s] [100%] [32m[1mLinking CXX executable linktime_composition[0m
+[102.076s] [100%] Built target linktime_composition
+[102.100s] Invoked command in '/home/student18/ros2_ws/build/composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student18/ros2_ws/build/composition -- -j4 -l4
+[102.100s] Invoking command in '/home/student18/ros2_ws/build/composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/student18/ros2_ws/build/composition
+[102.112s] -- Install configuration: ""
+[102.112s] -- Installing: /home/student18/ros2_ws/install/composition/share/composition/environment/library_path.sh
+[102.113s] -- Installing: /home/student18/ros2_ws/install/composition/share/composition/environment/library_path.dsv
+[102.114s] -- Installing: /home/student18/ros2_ws/install/composition/lib/libtalker_component.so
+[102.117s] -- Set runtime path of "/home/student18/ros2_ws/install/composition/lib/libtalker_component.so" to ""
+[102.117s] -- Installing: /home/student18/ros2_ws/install/composition/lib/liblistener_component.so
+[102.126s] -- Set runtime path of "/home/student18/ros2_ws/install/composition/lib/liblistener_component.so" to ""
+[102.126s] -- Installing: /home/student18/ros2_ws/install/composition/lib/libnode_like_listener_component.so
+[102.135s] -- Set runtime path of "/home/student18/ros2_ws/install/composition/lib/libnode_like_listener_component.so" to ""
+[102.136s] -- Installing: /home/student18/ros2_ws/install/composition/lib/libserver_component.so
+[102.137s] -- Set runtime path of "/home/student18/ros2_ws/install/composition/lib/libserver_component.so" to ""
+[102.138s] -- Installing: /home/student18/ros2_ws/install/composition/lib/libclient_component.so
+[102.140s] -- Set runtime path of "/home/student18/ros2_ws/install/composition/lib/libclient_component.so" to ""
+[102.141s] -- Installing: /home/student18/ros2_ws/install/composition/lib/composition/manual_composition
+[102.142s] -- Set runtime path of "/home/student18/ros2_ws/install/composition/lib/composition/manual_composition" to ""
+[102.142s] -- Installing: /home/student18/ros2_ws/install/composition/lib/composition/linktime_composition
+[102.144s] -- Set runtime path of "/home/student18/ros2_ws/install/composition/lib/composition/linktime_composition" to ""
+[102.144s] -- Installing: /home/student18/ros2_ws/install/composition/lib/composition/dlopen_composition
+[102.146s] -- Set runtime path of "/home/student18/ros2_ws/install/composition/lib/composition/dlopen_composition" to ""
+[102.146s] -- Installing: /home/student18/ros2_ws/install/composition/share/composition/launch
+[102.147s] -- Installing: /home/student18/ros2_ws/install/composition/share/composition/launch/composition_demo.launch.py
+[102.147s] -- Installing: /home/student18/ros2_ws/install/composition/share/ament_index/resource_index/package_run_dependencies/composition
+[102.148s] -- Installing: /home/student18/ros2_ws/install/composition/share/ament_index/resource_index/parent_prefix_path/composition
+[102.149s] -- Installing: /home/student18/ros2_ws/install/composition/share/composition/environment/ament_prefix_path.sh
+[102.149s] -- Installing: /home/student18/ros2_ws/install/composition/share/composition/environment/ament_prefix_path.dsv
+[102.150s] -- Installing: /home/student18/ros2_ws/install/composition/share/composition/environment/path.sh
+[102.150s] -- Installing: /home/student18/ros2_ws/install/composition/share/composition/environment/path.dsv
+[102.151s] -- Installing: /home/student18/ros2_ws/install/composition/share/composition/local_setup.bash
+[102.152s] -- Installing: /home/student18/ros2_ws/install/composition/share/composition/local_setup.sh
+[102.152s] -- Installing: /home/student18/ros2_ws/install/composition/share/composition/local_setup.zsh
+[102.155s] -- Installing: /home/student18/ros2_ws/install/composition/share/composition/local_setup.dsv
+[102.156s] -- Installing: /home/student18/ros2_ws/install/composition/share/composition/package.dsv
+[102.157s] -- Installing: /home/student18/ros2_ws/install/composition/share/ament_index/resource_index/packages/composition
+[102.157s] -- Installing: /home/student18/ros2_ws/install/composition/share/ament_index/resource_index/rclcpp_components/composition
+[102.157s] -- Installing: /home/student18/ros2_ws/install/composition/share/composition/cmake/compositionConfig.cmake
+[102.158s] -- Installing: /home/student18/ros2_ws/install/composition/share/composition/cmake/compositionConfig-version.cmake
+[102.159s] -- Installing: /home/student18/ros2_ws/install/composition/share/composition/package.xml
+[102.165s] Invoked command in '/home/student18/ros2_ws/build/composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/student18/ros2_ws/build/composition

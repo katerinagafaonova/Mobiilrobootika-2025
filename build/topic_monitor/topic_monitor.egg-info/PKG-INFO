@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: topic_monitor
+Version: 0.20.5
+Summary: Package containing tools for monitoring ROS 2 topics.
+License: Apache License, Version 2.0
+Keywords: ROS
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Requires-Dist: launch
+Requires-Dist: setuptools
+Dynamic: classifier
+Dynamic: keywords
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary

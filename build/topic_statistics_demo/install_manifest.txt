@@ -1,0 +1,17 @@
+/home/student18/ros2_ws/install/topic_statistics_demo/lib/topic_statistics_demo/display_topic_statistics
+/home/student18/ros2_ws/install/topic_statistics_demo/share/ament_index/resource_index/package_run_dependencies/topic_statistics_demo
+/home/student18/ros2_ws/install/topic_statistics_demo/share/ament_index/resource_index/parent_prefix_path/topic_statistics_demo
+/home/student18/ros2_ws/install/topic_statistics_demo/share/topic_statistics_demo/environment/ament_prefix_path.sh
+/home/student18/ros2_ws/install/topic_statistics_demo/share/topic_statistics_demo/environment/ament_prefix_path.dsv
+/home/student18/ros2_ws/install/topic_statistics_demo/share/topic_statistics_demo/environment/path.sh
+/home/student18/ros2_ws/install/topic_statistics_demo/share/topic_statistics_demo/environment/path.dsv
+/home/student18/ros2_ws/install/topic_statistics_demo/share/topic_statistics_demo/local_setup.bash
+/home/student18/ros2_ws/install/topic_statistics_demo/share/topic_statistics_demo/local_setup.sh
+/home/student18/ros2_ws/install/topic_statistics_demo/share/topic_statistics_demo/local_setup.zsh
+/home/student18/ros2_ws/install/topic_statistics_demo/share/topic_statistics_demo/local_setup.dsv
+/home/student18/ros2_ws/install/topic_statistics_demo/share/topic_statistics_demo/package.dsv
+/home/student18/ros2_ws/install/topic_statistics_demo/share/ament_index/resource_index/packages/topic_statistics_demo
+/home/student18/ros2_ws/install/topic_statistics_demo/share/topic_statistics_demo/cmake/ament_cmake_export_include_directories-extras.cmake
+/home/student18/ros2_ws/install/topic_statistics_demo/share/topic_statistics_demo/cmake/topic_statistics_demoConfig.cmake
+/home/student18/ros2_ws/install/topic_statistics_demo/share/topic_statistics_demo/cmake/topic_statistics_demoConfig-version.cmake
+/home/student18/ros2_ws/install/topic_statistics_demo/share/topic_statistics_demo/package.xml

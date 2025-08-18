@@ -1,0 +1,55 @@
+[0.008s] Invoking command in '/home/student18/ros2_ws/build/intra_process_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student18/ros2_ws/build/intra_process_demo -- -j4 -l4
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target image_pipeline_with_two_image_view[0m
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target two_node_pipeline[0m
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target cyclic_pipeline[0m
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target image_pipeline_all_in_one[0m
+[0.087s] [ 21%] Built target image_pipeline_with_two_image_view
+[0.088s] [ 28%] Built target two_node_pipeline
+[0.098s] [ 50%] Built target image_pipeline_all_in_one
+[0.098s] [ 57%] Built target cyclic_pipeline
+[0.105s] [35m[1mConsolidate compiler generated dependencies of target camera_node[0m
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target watermark_node[0m
+[0.110s] [35m[1mConsolidate compiler generated dependencies of target image_view_node[0m
+[0.134s] [ 71%] Built target watermark_node
+[0.138s] [ 92%] Built target camera_node
+[0.138s] [100%] Built target image_view_node
+[0.150s] Invoked command in '/home/student18/ros2_ws/build/intra_process_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student18/ros2_ws/build/intra_process_demo -- -j4 -l4
+[0.152s] Invoking command in '/home/student18/ros2_ws/build/intra_process_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/student18/ros2_ws/build/intra_process_demo
+[0.160s] -- Install configuration: ""
+[0.162s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/lib/intra_process_demo/two_node_pipeline
+[0.165s] -- Set runtime path of "/home/student18/ros2_ws/install/intra_process_demo/lib/intra_process_demo/two_node_pipeline" to ""
+[0.165s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/lib/intra_process_demo/cyclic_pipeline
+[0.169s] -- Set runtime path of "/home/student18/ros2_ws/install/intra_process_demo/lib/intra_process_demo/cyclic_pipeline" to ""
+[0.169s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/lib/intra_process_demo/image_pipeline_all_in_one
+[0.174s] -- Set runtime path of "/home/student18/ros2_ws/install/intra_process_demo/lib/intra_process_demo/image_pipeline_all_in_one" to ""
+[0.175s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/lib/intra_process_demo/image_pipeline_with_two_image_view
+[0.179s] -- Set runtime path of "/home/student18/ros2_ws/install/intra_process_demo/lib/intra_process_demo/image_pipeline_with_two_image_view" to ""
+[0.180s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/lib/intra_process_demo/camera_node
+[0.181s] -- Set runtime path of "/home/student18/ros2_ws/install/intra_process_demo/lib/intra_process_demo/camera_node" to ""
+[0.182s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/lib/intra_process_demo/watermark_node
+[0.185s] -- Set runtime path of "/home/student18/ros2_ws/install/intra_process_demo/lib/intra_process_demo/watermark_node" to ""
+[0.186s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/lib/intra_process_demo/image_view_node
+[0.190s] -- Set runtime path of "/home/student18/ros2_ws/install/intra_process_demo/lib/intra_process_demo/image_view_node" to ""
+[0.190s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/include/intra_process_demo
+[0.190s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/include/intra_process_demo/image_pipeline
+[0.190s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/include/intra_process_demo/image_pipeline/watermark_node.hpp
+[0.191s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/include/intra_process_demo/image_pipeline/image_view_node.hpp
+[0.191s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/include/intra_process_demo/image_pipeline/camera_node.hpp
+[0.191s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/include/intra_process_demo/image_pipeline/common.hpp
+[0.191s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/share/ament_index/resource_index/package_run_dependencies/intra_process_demo
+[0.192s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/share/ament_index/resource_index/parent_prefix_path/intra_process_demo
+[0.192s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/share/intra_process_demo/environment/ament_prefix_path.sh
+[0.192s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/share/intra_process_demo/environment/ament_prefix_path.dsv
+[0.193s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/share/intra_process_demo/environment/path.sh
+[0.193s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/share/intra_process_demo/environment/path.dsv
+[0.193s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/share/intra_process_demo/local_setup.bash
+[0.193s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/share/intra_process_demo/local_setup.sh
+[0.194s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/share/intra_process_demo/local_setup.zsh
+[0.194s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/share/intra_process_demo/local_setup.dsv
+[0.194s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/share/intra_process_demo/package.dsv
+[0.195s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/share/ament_index/resource_index/packages/intra_process_demo
+[0.195s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/share/intra_process_demo/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.195s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/share/intra_process_demo/cmake/intra_process_demoConfig.cmake
+[0.195s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/share/intra_process_demo/cmake/intra_process_demoConfig-version.cmake
+[0.195s] -- Installing: /home/student18/ros2_ws/install/intra_process_demo/share/intra_process_demo/package.xml
+[0.198s] Invoked command in '/home/student18/ros2_ws/build/intra_process_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/student18/ros2_ws/build/intra_process_demo

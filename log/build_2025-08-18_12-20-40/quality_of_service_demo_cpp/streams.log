@@ -1,0 +1,73 @@
+[0.011s] Invoking command in '/home/student18/ros2_ws/build/quality_of_service_demo_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student18/ros2_ws/build/quality_of_service_demo_cpp -- -j4 -l4
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target liveliness[0m
+[0.077s] [35m[1mConsolidate compiler generated dependencies of target deadline[0m
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target interactive_publisher[0m
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target lifespan[0m
+[0.105s] [ 10%] Built target liveliness
+[0.114s] [ 21%] Built target interactive_publisher
+[0.115s] [ 31%] Built target lifespan
+[0.116s] [ 42%] Built target deadline
+[0.124s] [35m[1mConsolidate compiler generated dependencies of target interactive_subscriber[0m
+[0.133s] [35m[1mConsolidate compiler generated dependencies of target incompatible_qos[0m
+[0.134s] [35m[1mConsolidate compiler generated dependencies of target message_lost_listener[0m
+[0.136s] [35m[1mConsolidate compiler generated dependencies of target message_lost[0m
+[0.158s] [ 52%] Built target interactive_subscriber
+[0.164s] [ 57%] Built target message_lost_listener
+[0.168s] [ 68%] Built target incompatible_qos
+[0.172s] [ 76%] Built target message_lost
+[0.175s] [35m[1mConsolidate compiler generated dependencies of target message_lost_talker[0m
+[0.182s] [35m[1mConsolidate compiler generated dependencies of target qos_overrides[0m
+[0.186s] [35m[1mConsolidate compiler generated dependencies of target qos_overrides_listener[0m
+[0.191s] [35m[1mConsolidate compiler generated dependencies of target qos_overrides_talker[0m
+[0.206s] [ 81%] Built target message_lost_talker
+[0.215s] [ 86%] Built target qos_overrides_listener
+[0.216s] [ 92%] Built target qos_overrides_talker
+[0.217s] [100%] Built target qos_overrides
+[0.229s] Invoked command in '/home/student18/ros2_ws/build/quality_of_service_demo_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student18/ros2_ws/build/quality_of_service_demo_cpp -- -j4 -l4
+[0.231s] Invoking command in '/home/student18/ros2_ws/build/quality_of_service_demo_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/student18/ros2_ws/build/quality_of_service_demo_cpp
+[0.238s] -- Install configuration: ""
+[0.239s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/lib/quality_of_service_demo_cpp/liveliness
+[0.243s] -- Set runtime path of "/home/student18/ros2_ws/install/quality_of_service_demo_cpp/lib/quality_of_service_demo_cpp/liveliness" to ""
+[0.243s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/lib/quality_of_service_demo_cpp/lifespan
+[0.247s] -- Set runtime path of "/home/student18/ros2_ws/install/quality_of_service_demo_cpp/lib/quality_of_service_demo_cpp/lifespan" to ""
+[0.247s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/lib/quality_of_service_demo_cpp/deadline
+[0.251s] -- Set runtime path of "/home/student18/ros2_ws/install/quality_of_service_demo_cpp/lib/quality_of_service_demo_cpp/deadline" to ""
+[0.251s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/lib/quality_of_service_demo_cpp/interactive_publisher
+[0.255s] -- Set runtime path of "/home/student18/ros2_ws/install/quality_of_service_demo_cpp/lib/quality_of_service_demo_cpp/interactive_publisher" to ""
+[0.256s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/lib/quality_of_service_demo_cpp/interactive_subscriber
+[0.259s] -- Set runtime path of "/home/student18/ros2_ws/install/quality_of_service_demo_cpp/lib/quality_of_service_demo_cpp/interactive_subscriber" to ""
+[0.259s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/lib/quality_of_service_demo_cpp/incompatible_qos
+[0.264s] -- Set runtime path of "/home/student18/ros2_ws/install/quality_of_service_demo_cpp/lib/quality_of_service_demo_cpp/incompatible_qos" to ""
+[0.264s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/lib/quality_of_service_demo_cpp/message_lost_listener
+[0.264s] -- Set runtime path of "/home/student18/ros2_ws/install/quality_of_service_demo_cpp/lib/quality_of_service_demo_cpp/message_lost_listener" to ""
+[0.265s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/lib/quality_of_service_demo_cpp/message_lost_talker
+[0.265s] -- Set runtime path of "/home/student18/ros2_ws/install/quality_of_service_demo_cpp/lib/quality_of_service_demo_cpp/message_lost_talker" to ""
+[0.266s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/lib/quality_of_service_demo_cpp/qos_overrides_listener
+[0.266s] -- Set runtime path of "/home/student18/ros2_ws/install/quality_of_service_demo_cpp/lib/quality_of_service_demo_cpp/qos_overrides_listener" to ""
+[0.266s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/lib/quality_of_service_demo_cpp/qos_overrides_talker
+[0.267s] -- Set runtime path of "/home/student18/ros2_ws/install/quality_of_service_demo_cpp/lib/quality_of_service_demo_cpp/qos_overrides_talker" to ""
+[0.267s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/lib/libmessage_lost.so
+[0.273s] -- Set runtime path of "/home/student18/ros2_ws/install/quality_of_service_demo_cpp/lib/libmessage_lost.so" to ""
+[0.274s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/lib/libqos_overrides.so
+[0.281s] -- Set runtime path of "/home/student18/ros2_ws/install/quality_of_service_demo_cpp/lib/libqos_overrides.so" to ""
+[0.281s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/share/quality_of_service_demo_cpp/params_file
+[0.282s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/share/quality_of_service_demo_cpp/params_file/example_qos_overrides.yaml
+[0.283s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/share/quality_of_service_demo_cpp/params_file/example_qos_overrides_with_wildcard.yaml
+[0.283s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/share/ament_index/resource_index/package_run_dependencies/quality_of_service_demo_cpp
+[0.284s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/share/ament_index/resource_index/parent_prefix_path/quality_of_service_demo_cpp
+[0.284s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/share/quality_of_service_demo_cpp/environment/ament_prefix_path.sh
+[0.285s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/share/quality_of_service_demo_cpp/environment/ament_prefix_path.dsv
+[0.285s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/share/quality_of_service_demo_cpp/environment/path.sh
+[0.286s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/share/quality_of_service_demo_cpp/environment/path.dsv
+[0.286s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/share/quality_of_service_demo_cpp/local_setup.bash
+[0.287s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/share/quality_of_service_demo_cpp/local_setup.sh
+[0.288s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/share/quality_of_service_demo_cpp/local_setup.zsh
+[0.288s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/share/quality_of_service_demo_cpp/local_setup.dsv
+[0.290s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/share/quality_of_service_demo_cpp/package.dsv
+[0.290s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/share/ament_index/resource_index/packages/quality_of_service_demo_cpp
+[0.290s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/share/ament_index/resource_index/rclcpp_components/quality_of_service_demo_cpp
+[0.290s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/share/quality_of_service_demo_cpp/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.291s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/share/quality_of_service_demo_cpp/cmake/quality_of_service_demo_cppConfig.cmake
+[0.291s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/share/quality_of_service_demo_cpp/cmake/quality_of_service_demo_cppConfig-version.cmake
+[0.291s] -- Installing: /home/student18/ros2_ws/install/quality_of_service_demo_cpp/share/quality_of_service_demo_cpp/package.xml
+[0.292s] Invoked command in '/home/student18/ros2_ws/build/quality_of_service_demo_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/student18/ros2_ws/build/quality_of_service_demo_cpp

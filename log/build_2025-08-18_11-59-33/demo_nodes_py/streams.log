@@ -1,0 +1,88 @@
+[2.262s] Invoking command in '/home/student18/ros2_ws/src/demos/demo_nodes_py': PYTHONPATH=/home/student18/ros2_ws/build/demo_nodes_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/demo_nodes_py build --build-base /home/student18/ros2_ws/build/demo_nodes_py/build install --record /home/student18/ros2_ws/build/demo_nodes_py/install.log --single-version-externally-managed install_data
+[2.878s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.878s]   warnings.warn(msg)
+[2.998s] /usr/local/lib/python3.10/dist-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[2.998s] !!
+[2.999s] 
+[2.999s]         ********************************************************************************
+[2.999s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[3.000s] 
+[3.000s]         License :: OSI Approved :: Apache Software License
+[3.000s] 
+[3.000s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[3.000s]         ********************************************************************************
+[3.000s] 
+[3.000s] !!
+[3.000s]   self._finalize_license_expression()
+[3.247s] running egg_info
+[3.309s] creating ../../../build/demo_nodes_py/demo_nodes_py.egg-info
+[3.309s] writing ../../../build/demo_nodes_py/demo_nodes_py.egg-info/PKG-INFO
+[3.322s] writing dependency_links to ../../../build/demo_nodes_py/demo_nodes_py.egg-info/dependency_links.txt
+[3.323s] writing entry points to ../../../build/demo_nodes_py/demo_nodes_py.egg-info/entry_points.txt
+[3.325s] writing requirements to ../../../build/demo_nodes_py/demo_nodes_py.egg-info/requires.txt
+[3.325s] writing top-level names to ../../../build/demo_nodes_py/demo_nodes_py.egg-info/top_level.txt
+[3.339s] /usr/lib/python3/dist-packages/pbr/git.py:28: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[3.339s]   import pkg_resources
+[3.574s] writing manifest file '../../../build/demo_nodes_py/demo_nodes_py.egg-info/SOURCES.txt'
+[3.707s] reading manifest file '../../../build/demo_nodes_py/demo_nodes_py.egg-info/SOURCES.txt'
+[3.711s] writing manifest file '../../../build/demo_nodes_py/demo_nodes_py.egg-info/SOURCES.txt'
+[3.712s] running build
+[3.712s] running build_py
+[3.713s] creating /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py
+[3.715s] copying demo_nodes_py/__init__.py -> /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py
+[3.715s] creating /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics
+[3.715s] copying demo_nodes_py/topics/listener_qos.py -> /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics
+[3.717s] copying demo_nodes_py/topics/__init__.py -> /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics
+[3.717s] copying demo_nodes_py/topics/talker_qos.py -> /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics
+[3.719s] copying demo_nodes_py/topics/listener_serialized.py -> /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics
+[3.719s] copying demo_nodes_py/topics/listener.py -> /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics
+[3.721s] copying demo_nodes_py/topics/talker.py -> /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics
+[3.721s] creating /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services
+[3.721s] copying demo_nodes_py/services/add_two_ints_client.py -> /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services
+[3.724s] copying demo_nodes_py/services/add_two_ints_client_async.py -> /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services
+[3.724s] copying demo_nodes_py/services/__init__.py -> /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services
+[3.724s] copying demo_nodes_py/services/add_two_ints_server.py -> /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services
+[3.727s] running install
+[3.740s] running install_lib
+[3.804s] creating /home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py
+[3.808s] creating /home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics
+[3.808s] copying /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics/listener_qos.py -> /home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics
+[3.808s] copying /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics/__init__.py -> /home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics
+[3.809s] copying /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics/talker_qos.py -> /home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics
+[3.809s] copying /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics/listener_serialized.py -> /home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics
+[3.809s] copying /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics/listener.py -> /home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics
+[3.810s] copying /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics/talker.py -> /home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics
+[3.810s] copying /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/__init__.py -> /home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py
+[3.810s] creating /home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services
+[3.812s] copying /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services/add_two_ints_client.py -> /home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services
+[3.812s] copying /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services/add_two_ints_client_async.py -> /home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services
+[3.812s] copying /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services/__init__.py -> /home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services
+[3.812s] copying /home/student18/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services/add_two_ints_server.py -> /home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services
+[3.814s] byte-compiling /home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics/listener_qos.py to listener_qos.cpython-310.pyc
+[3.818s] byte-compiling /home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics/__init__.py to __init__.cpython-310.pyc
+[3.818s] byte-compiling /home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics/talker_qos.py to talker_qos.cpython-310.pyc
+[3.820s] byte-compiling /home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics/listener_serialized.py to listener_serialized.cpython-310.pyc
+[3.820s] byte-compiling /home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics/listener.py to listener.cpython-310.pyc
+[3.822s] byte-compiling /home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics/talker.py to talker.cpython-310.pyc
+[3.824s] byte-compiling /home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/__init__.py to __init__.cpython-310.pyc
+[3.826s] byte-compiling /home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services/add_two_ints_client.py to add_two_ints_client.cpython-310.pyc
+[3.828s] byte-compiling /home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services/add_two_ints_client_async.py to add_two_ints_client_async.cpython-310.pyc
+[3.829s] byte-compiling /home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services/__init__.py to __init__.cpython-310.pyc
+[3.829s] byte-compiling /home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc
+[3.831s] running install_data
+[3.831s] creating /home/student18/ros2_ws/install/demo_nodes_py/share/ament_index/resource_index/packages
+[3.833s] copying resource/demo_nodes_py -> /home/student18/ros2_ws/install/demo_nodes_py/share/ament_index/resource_index/packages
+[3.833s] copying package.xml -> /home/student18/ros2_ws/install/demo_nodes_py/share/demo_nodes_py
+[3.833s] running install_egg_info
+[3.914s] Copying ../../../build/demo_nodes_py/demo_nodes_py.egg-info to /home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py-0.20.5-py3.10.egg-info
+[3.914s] running install_scripts
+[4.043s] Installing add_two_ints_client script to /home/student18/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[4.043s] Installing add_two_ints_client_async script to /home/student18/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[4.043s] Installing add_two_ints_server script to /home/student18/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[4.043s] Installing listener script to /home/student18/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[4.044s] Installing listener_qos script to /home/student18/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[4.044s] Installing listener_serialized script to /home/student18/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[4.044s] Installing talker script to /home/student18/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[4.044s] Installing talker_qos script to /home/student18/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[4.046s] writing list of installed files to '/home/student18/ros2_ws/build/demo_nodes_py/install.log'
+[4.119s] Invoked command in '/home/student18/ros2_ws/src/demos/demo_nodes_py' returned '0': PYTHONPATH=/home/student18/ros2_ws/build/demo_nodes_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student18/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/demo_nodes_py build --build-base /home/student18/ros2_ws/build/demo_nodes_py/build install --record /home/student18/ros2_ws/build/demo_nodes_py/install.log --single-version-externally-managed install_data

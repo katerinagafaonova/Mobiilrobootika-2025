@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "logging_demo__py",
+		"source" : "/home/student18/ros2_ws/build/logging_demo/logging_demo__py"
+	}
+}

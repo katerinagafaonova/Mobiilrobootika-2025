@@ -1,0 +1,16 @@
+/home/student18/ros2_ws/install/dummy_map_server/lib/dummy_map_server/dummy_map_server
+/home/student18/ros2_ws/install/dummy_map_server/share/ament_index/resource_index/package_run_dependencies/dummy_map_server
+/home/student18/ros2_ws/install/dummy_map_server/share/ament_index/resource_index/parent_prefix_path/dummy_map_server
+/home/student18/ros2_ws/install/dummy_map_server/share/dummy_map_server/environment/ament_prefix_path.sh
+/home/student18/ros2_ws/install/dummy_map_server/share/dummy_map_server/environment/ament_prefix_path.dsv
+/home/student18/ros2_ws/install/dummy_map_server/share/dummy_map_server/environment/path.sh
+/home/student18/ros2_ws/install/dummy_map_server/share/dummy_map_server/environment/path.dsv
+/home/student18/ros2_ws/install/dummy_map_server/share/dummy_map_server/local_setup.bash
+/home/student18/ros2_ws/install/dummy_map_server/share/dummy_map_server/local_setup.sh
+/home/student18/ros2_ws/install/dummy_map_server/share/dummy_map_server/local_setup.zsh
+/home/student18/ros2_ws/install/dummy_map_server/share/dummy_map_server/local_setup.dsv
+/home/student18/ros2_ws/install/dummy_map_server/share/dummy_map_server/package.dsv
+/home/student18/ros2_ws/install/dummy_map_server/share/ament_index/resource_index/packages/dummy_map_server
+/home/student18/ros2_ws/install/dummy_map_server/share/dummy_map_server/cmake/dummy_map_serverConfig.cmake
+/home/student18/ros2_ws/install/dummy_map_server/share/dummy_map_server/cmake/dummy_map_serverConfig-version.cmake
+/home/student18/ros2_ws/install/dummy_map_server/share/dummy_map_server/package.xml

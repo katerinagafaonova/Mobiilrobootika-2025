@@ -1,0 +1,6 @@
+Invoking command in '/home/student18/ros2_ws/build/composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/student18/ros2_ws/src/demos/composition -DCMAKE_INSTALL_PREFIX=/home/student18/ros2_ws/install/composition
+Invoked command in '/home/student18/ros2_ws/build/composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/student18/ros2_ws/src/demos/composition -DCMAKE_INSTALL_PREFIX=/home/student18/ros2_ws/install/composition
+Invoking command in '/home/student18/ros2_ws/build/composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student18/ros2_ws/build/composition -- -j4 -l4
+Invoked command in '/home/student18/ros2_ws/build/composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student18/ros2_ws/build/composition -- -j4 -l4
+Invoking command in '/home/student18/ros2_ws/build/composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/student18/ros2_ws/build/composition
+Invoked command in '/home/student18/ros2_ws/build/composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/student18/ros2_ws/build/composition

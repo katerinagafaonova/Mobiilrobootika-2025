@@ -1,0 +1,17 @@
+/home/student18/ros2_ws/install/dummy_sensors/lib/dummy_sensors/dummy_joint_states
+/home/student18/ros2_ws/install/dummy_sensors/lib/dummy_sensors/dummy_laser
+/home/student18/ros2_ws/install/dummy_sensors/share/ament_index/resource_index/package_run_dependencies/dummy_sensors
+/home/student18/ros2_ws/install/dummy_sensors/share/ament_index/resource_index/parent_prefix_path/dummy_sensors
+/home/student18/ros2_ws/install/dummy_sensors/share/dummy_sensors/environment/ament_prefix_path.sh
+/home/student18/ros2_ws/install/dummy_sensors/share/dummy_sensors/environment/ament_prefix_path.dsv
+/home/student18/ros2_ws/install/dummy_sensors/share/dummy_sensors/environment/path.sh
+/home/student18/ros2_ws/install/dummy_sensors/share/dummy_sensors/environment/path.dsv
+/home/student18/ros2_ws/install/dummy_sensors/share/dummy_sensors/local_setup.bash
+/home/student18/ros2_ws/install/dummy_sensors/share/dummy_sensors/local_setup.sh
+/home/student18/ros2_ws/install/dummy_sensors/share/dummy_sensors/local_setup.zsh
+/home/student18/ros2_ws/install/dummy_sensors/share/dummy_sensors/local_setup.dsv
+/home/student18/ros2_ws/install/dummy_sensors/share/dummy_sensors/package.dsv
+/home/student18/ros2_ws/install/dummy_sensors/share/ament_index/resource_index/packages/dummy_sensors
+/home/student18/ros2_ws/install/dummy_sensors/share/dummy_sensors/cmake/dummy_sensorsConfig.cmake
+/home/student18/ros2_ws/install/dummy_sensors/share/dummy_sensors/cmake/dummy_sensorsConfig-version.cmake
+/home/student18/ros2_ws/install/dummy_sensors/share/dummy_sensors/package.xml

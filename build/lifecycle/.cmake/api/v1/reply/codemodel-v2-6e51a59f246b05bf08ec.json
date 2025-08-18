@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5dfaf345208082057565.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lifecycle",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_listener-301f06001cdd737181b2.json",
+					"name" : "lifecycle_listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_service_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_service_client-d1bc0de0af5b5b13a098.json",
+					"name" : "lifecycle_service_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_talker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_talker-197c990bb8f0539bd2d6.json",
+					"name" : "lifecycle_talker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_uninstall-d6f890366c3d8e774ea5.json",
+					"name" : "lifecycle_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d936d23a2752b1ccfadf.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/student18/ros2_ws/build/lifecycle",
+		"source" : "/home/student18/ros2_ws/src/demos/lifecycle"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

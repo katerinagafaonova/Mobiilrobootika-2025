@@ -1,0 +1,86 @@
+[0.009s] Invoking command in '/home/student18/ros2_ws/build/action_tutorials_cpp': AMENT_PREFIX_PATH=/home/student18/ros2_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student18/ros2_ws/install/action_tutorials_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/student18/ros2_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student18/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/student18/ros2_ws/src/demos/action_tutorials/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/student18/ros2_ws/install/action_tutorials_cpp
+[0.068s] -- The C compiler identification is GNU 11.4.0
+[0.137s] -- The CXX compiler identification is GNU 11.4.0
+[0.145s] -- Detecting C compiler ABI info
+[0.233s] -- Detecting C compiler ABI info - done
+[0.246s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.246s] -- Detecting C compile features
+[0.247s] -- Detecting C compile features - done
+[0.250s] -- Detecting CXX compiler ABI info
+[0.343s] -- Detecting CXX compiler ABI info - done
+[0.358s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.358s] -- Detecting CXX compile features
+[0.359s] -- Detecting CXX compile features - done
+[0.364s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.792s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.889s] -- Found action_tutorials_interfaces: 0.20.5 (/home/student18/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake)
+[0.924s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.930s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.939s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.952s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.970s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.032s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.074s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.076s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.174s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.199s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.240s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.249s] -- Looking for pthread.h
+[1.333s] -- Looking for pthread.h - found
+[1.333s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.435s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.437s] -- Found Threads: TRUE  
+[1.505s] -- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.518s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.553s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.678s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.679s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.680s] -- Configured cppcheck include dirs: /home/student18/ros2_ws/src/demos/action_tutorials/action_tutorials_cpp/include
+[1.680s] -- Configured cppcheck exclude dirs and/or files: 
+[1.681s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.681s] -- Configured cpplint exclude dirs and/or files: 
+[1.682s] -- Added test 'lint_cmake' to check CMake code style
+[1.683s] -- Added test 'uncrustify' to check C / C++ code style
+[1.684s] -- Configured uncrustify additional arguments: 
+[1.684s] -- Added test 'xmllint' to check XML markup files
+[1.686s] -- Configuring done
+[1.706s] -- Generating done
+[1.715s] -- Build files have been written to: /home/student18/ros2_ws/build/action_tutorials_cpp
+[1.726s] Invoked command in '/home/student18/ros2_ws/build/action_tutorials_cpp' returned '0': AMENT_PREFIX_PATH=/home/student18/ros2_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student18/ros2_ws/install/action_tutorials_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/student18/ros2_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student18/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/student18/ros2_ws/src/demos/action_tutorials/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/student18/ros2_ws/install/action_tutorials_cpp
+[1.729s] Invoking command in '/home/student18/ros2_ws/build/action_tutorials_cpp': AMENT_PREFIX_PATH=/home/student18/ros2_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student18/ros2_ws/install/action_tutorials_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/student18/ros2_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student18/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student18/ros2_ws/build/action_tutorials_cpp -- -j4 -l4
+[1.796s] [ 14%] [32mBuilding CXX object CMakeFiles/fibonacci_action_server.dir/rclcpp_components/node_main_fibonacci_action_server.cpp.o[0m
+[1.797s] [ 28%] [32mBuilding CXX object CMakeFiles/action_tutorials.dir/src/fibonacci_action_client.cpp.o[0m
+[1.798s] [ 42%] [32mBuilding CXX object CMakeFiles/action_tutorials.dir/src/fibonacci_action_server.cpp.o[0m
+[1.803s] [ 57%] [32mBuilding CXX object CMakeFiles/fibonacci_action_client.dir/rclcpp_components/node_main_fibonacci_action_client.cpp.o[0m
+[8.062s] [ 71%] [32m[1mLinking CXX executable fibonacci_action_server[0m
+[8.279s] [ 71%] Built target fibonacci_action_server
+[8.448s] [ 85%] [32m[1mLinking CXX executable fibonacci_action_client[0m
+[8.675s] [ 85%] Built target fibonacci_action_client
+[10.364s] [100%] [32m[1mLinking CXX shared library libaction_tutorials.so[0m
+[10.619s] [100%] Built target action_tutorials
+[10.632s] Invoked command in '/home/student18/ros2_ws/build/action_tutorials_cpp' returned '0': AMENT_PREFIX_PATH=/home/student18/ros2_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student18/ros2_ws/install/action_tutorials_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/student18/ros2_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student18/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student18/ros2_ws/build/action_tutorials_cpp -- -j4 -l4
+[10.634s] Invoking command in '/home/student18/ros2_ws/build/action_tutorials_cpp': AMENT_PREFIX_PATH=/home/student18/ros2_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student18/ros2_ws/install/action_tutorials_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/student18/ros2_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student18/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student18/ros2_ws/build/action_tutorials_cpp
+[10.642s] -- Install configuration: ""
+[10.643s] -- Installing: /home/student18/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_client
+[10.643s] -- Set runtime path of "/home/student18/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_client" to ""
+[10.644s] -- Installing: /home/student18/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_server
+[10.644s] -- Set runtime path of "/home/student18/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_server" to ""
+[10.644s] -- Installing: /home/student18/ros2_ws/install/action_tutorials_cpp/lib/libaction_tutorials.so
+[10.647s] -- Set runtime path of "/home/student18/ros2_ws/install/action_tutorials_cpp/lib/libaction_tutorials.so" to ""
+[10.647s] -- Installing: /home/student18/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/package_run_dependencies/action_tutorials_cpp
+[10.648s] -- Installing: /home/student18/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/parent_prefix_path/action_tutorials_cpp
+[10.648s] -- Installing: /home/student18/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.sh
+[10.649s] -- Installing: /home/student18/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.dsv
+[10.649s] -- Installing: /home/student18/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.sh
+[10.649s] -- Installing: /home/student18/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.dsv
+[10.650s] -- Installing: /home/student18/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.bash
+[10.650s] -- Installing: /home/student18/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.sh
+[10.650s] -- Installing: /home/student18/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.zsh
+[10.651s] -- Installing: /home/student18/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.dsv
+[10.651s] -- Installing: /home/student18/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv
+[10.651s] -- Installing: /home/student18/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/packages/action_tutorials_cpp
+[10.652s] -- Installing: /home/student18/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/rclcpp_components/action_tutorials_cpp
+[10.652s] -- Installing: /home/student18/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig.cmake
+[10.652s] -- Installing: /home/student18/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig-version.cmake
+[10.652s] -- Installing: /home/student18/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.xml
+[10.653s] Invoked command in '/home/student18/ros2_ws/build/action_tutorials_cpp' returned '0': AMENT_PREFIX_PATH=/home/student18/ros2_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student18/ros2_ws/install/action_tutorials_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/student18/ros2_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student18/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student18/ros2_ws/build/action_tutorials_cpp

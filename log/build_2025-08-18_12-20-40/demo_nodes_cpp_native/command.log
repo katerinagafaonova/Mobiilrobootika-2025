@@ -1,0 +1,4 @@
+Invoking command in '/home/student18/ros2_ws/build/demo_nodes_cpp_native': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student18/ros2_ws/build/demo_nodes_cpp_native -- -j4 -l4
+Invoked command in '/home/student18/ros2_ws/build/demo_nodes_cpp_native' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student18/ros2_ws/build/demo_nodes_cpp_native -- -j4 -l4
+Invoking command in '/home/student18/ros2_ws/build/demo_nodes_cpp_native': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/student18/ros2_ws/build/demo_nodes_cpp_native
+Invoked command in '/home/student18/ros2_ws/build/demo_nodes_cpp_native' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/student18/ros2_ws/build/demo_nodes_cpp_native

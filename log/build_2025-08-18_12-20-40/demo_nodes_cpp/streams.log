@@ -1,0 +1,140 @@
+[0.008s] Invoking command in '/home/student18/ros2_ws/build/demo_nodes_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student18/ros2_ws/build/demo_nodes_cpp -- -j4 -l4
+[0.076s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client[0m
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target allocator_tutorial[0m
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target parameter_events[0m
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target list_parameters_async[0m
+[0.103s] [  7%] Built target parameter_events
+[0.104s] [  7%] Built target list_parameters_async
+[0.105s] [  8%] Built target allocator_tutorial
+[0.106s] [ 11%] Built target add_two_ints_client
+[0.119s] [35m[1mConsolidate compiler generated dependencies of target parameter_event_handler[0m
+[0.123s] [35m[1mConsolidate compiler generated dependencies of target set_and_get_parameters_async[0m
+[0.123s] [35m[1mConsolidate compiler generated dependencies of target timers_library[0m
+[0.128s] [35m[1mConsolidate compiler generated dependencies of target services_library[0m
+[0.149s] [ 14%] Built target parameter_event_handler
+[0.153s] [ 17%] Built target set_and_get_parameters_async
+[0.156s] [ 22%] Built target timers_library
+[0.166s] [ 27%] Built target services_library
+[0.171s] [35m[1mConsolidate compiler generated dependencies of target parameters_library[0m
+[0.174s] [35m[1mConsolidate compiler generated dependencies of target one_off_timer[0m
+[0.179s] [35m[1mConsolidate compiler generated dependencies of target topics_library[0m
+[0.184s] [35m[1mConsolidate compiler generated dependencies of target reuse_timer[0m
+[0.207s] [ 30%] Built target one_off_timer
+[0.215s] [ 39%] Built target parameters_library
+[0.217s] [ 42%] Built target reuse_timer
+[0.226s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_server[0m
+[0.233s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client_async[0m
+[0.235s] [35m[1mConsolidate compiler generated dependencies of target list_parameters[0m
+[0.238s] [ 55%] Built target topics_library
+[0.254s] [ 58%] Built target add_two_ints_server
+[0.256s] [35m[1mConsolidate compiler generated dependencies of target parameter_blackboard[0m
+[0.263s] [ 61%] Built target add_two_ints_client_async
+[0.268s] [ 64%] Built target list_parameters
+[0.275s] [35m[1mConsolidate compiler generated dependencies of target set_and_get_parameters[0m
+[0.280s] [35m[1mConsolidate compiler generated dependencies of target parameter_events_async[0m
+[0.286s] [35m[1mConsolidate compiler generated dependencies of target even_parameters_node[0m
+[0.293s] [ 67%] Built target parameter_blackboard
+[0.307s] [ 70%] Built target set_and_get_parameters
+[0.309s] [35m[1mConsolidate compiler generated dependencies of target content_filtering_publisher[0m
+[0.310s] [ 73%] Built target parameter_events_async
+[0.317s] [ 76%] Built target even_parameters_node
+[0.324s] [35m[1mConsolidate compiler generated dependencies of target content_filtering_subscriber[0m
+[0.328s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.338s] [35m[1mConsolidate compiler generated dependencies of target talker_loaned_message[0m
+[0.340s] [ 79%] Built target content_filtering_publisher
+[0.355s] [ 82%] Built target content_filtering_subscriber
+[0.356s] [ 85%] Built target talker
+[0.357s] [35m[1mConsolidate compiler generated dependencies of target talker_serialized_message[0m
+[0.370s] [ 88%] Built target talker_loaned_message
+[0.374s] [35m[1mConsolidate compiler generated dependencies of target listener_serialized_message[0m
+[0.374s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.385s] [ 91%] Built target talker_serialized_message
+[0.387s] [35m[1mConsolidate compiler generated dependencies of target listener_best_effort[0m
+[0.400s] [ 94%] Built target listener
+[0.403s] [ 97%] Built target listener_serialized_message
+[0.413s] [100%] Built target listener_best_effort
+[0.425s] Invoked command in '/home/student18/ros2_ws/build/demo_nodes_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student18/ros2_ws/build/demo_nodes_cpp -- -j4 -l4
+[0.428s] Invoking command in '/home/student18/ros2_ws/build/demo_nodes_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/student18/ros2_ws/build/demo_nodes_cpp
+[0.436s] -- Install configuration: ""
+[0.436s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/allocator_tutorial
+[0.440s] -- Set runtime path of "/home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/allocator_tutorial" to ""
+[0.441s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/add_two_ints_client
+[0.441s] -- Set runtime path of "/home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/add_two_ints_client" to ""
+[0.441s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/list_parameters_async
+[0.442s] -- Set runtime path of "/home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/list_parameters_async" to ""
+[0.442s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/parameter_events
+[0.446s] -- Set runtime path of "/home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/parameter_events" to ""
+[0.447s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/parameter_event_handler
+[0.452s] -- Set runtime path of "/home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/parameter_event_handler" to ""
+[0.452s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/set_and_get_parameters_async
+[0.452s] -- Set runtime path of "/home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/set_and_get_parameters_async" to ""
+[0.453s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/one_off_timer
+[0.453s] -- Set runtime path of "/home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/one_off_timer" to ""
+[0.454s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/reuse_timer
+[0.454s] -- Set runtime path of "/home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/reuse_timer" to ""
+[0.455s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/add_two_ints_server
+[0.455s] -- Set runtime path of "/home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/add_two_ints_server" to ""
+[0.455s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/add_two_ints_client_async
+[0.456s] -- Set runtime path of "/home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/add_two_ints_client_async" to ""
+[0.456s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/list_parameters
+[0.456s] -- Set runtime path of "/home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/list_parameters" to ""
+[0.457s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/parameter_blackboard
+[0.457s] -- Set runtime path of "/home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/parameter_blackboard" to ""
+[0.458s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/set_and_get_parameters
+[0.458s] -- Set runtime path of "/home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/set_and_get_parameters" to ""
+[0.458s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/parameter_events_async
+[0.459s] -- Set runtime path of "/home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/parameter_events_async" to ""
+[0.459s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/even_parameters_node
+[0.460s] -- Set runtime path of "/home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/even_parameters_node" to ""
+[0.460s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/content_filtering_publisher
+[0.460s] -- Set runtime path of "/home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/content_filtering_publisher" to ""
+[0.461s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/content_filtering_subscriber
+[0.461s] -- Set runtime path of "/home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/content_filtering_subscriber" to ""
+[0.461s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/talker
+[0.462s] -- Set runtime path of "/home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/talker" to ""
+[0.462s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/talker_loaned_message
+[0.462s] -- Set runtime path of "/home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/talker_loaned_message" to ""
+[0.463s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/talker_serialized_message
+[0.463s] -- Set runtime path of "/home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/talker_serialized_message" to ""
+[0.464s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/listener
+[0.464s] -- Set runtime path of "/home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/listener" to ""
+[0.465s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/listener_serialized_message
+[0.465s] -- Set runtime path of "/home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/listener_serialized_message" to ""
+[0.465s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/listener_best_effort
+[0.466s] -- Set runtime path of "/home/student18/ros2_ws/install/demo_nodes_cpp/lib/demo_nodes_cpp/listener_best_effort" to ""
+[0.466s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/lib/libtimers_library.so
+[0.466s] -- Set runtime path of "/home/student18/ros2_ws/install/demo_nodes_cpp/lib/libtimers_library.so" to ""
+[0.466s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/lib/libservices_library.so
+[0.468s] -- Set runtime path of "/home/student18/ros2_ws/install/demo_nodes_cpp/lib/libservices_library.so" to ""
+[0.469s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/lib/libparameters_library.so
+[0.476s] -- Set runtime path of "/home/student18/ros2_ws/install/demo_nodes_cpp/lib/libparameters_library.so" to ""
+[0.476s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/lib/libtopics_library.so
+[0.489s] -- Set runtime path of "/home/student18/ros2_ws/install/demo_nodes_cpp/lib/libtopics_library.so" to ""
+[0.489s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/share/demo_nodes_cpp//launch
+[0.490s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/share/demo_nodes_cpp//launch/topics
+[0.490s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/share/demo_nodes_cpp//launch/topics/talker_listener_best_effort.launch.xml
+[0.491s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/share/demo_nodes_cpp//launch/topics/talker_listener_best_effort.launch.py
+[0.491s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/share/demo_nodes_cpp//launch/topics/talker_listener.launch.xml
+[0.491s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/share/demo_nodes_cpp//launch/topics/talker_listener.launch.py
+[0.492s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/share/demo_nodes_cpp//launch/services
+[0.492s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/share/demo_nodes_cpp//launch/services/add_two_ints_async.launch.py
+[0.492s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/share/demo_nodes_cpp//launch/services/add_two_ints.launch.xml
+[0.493s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/share/demo_nodes_cpp//launch/services/add_two_ints.launch.py
+[0.493s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/share/demo_nodes_cpp//launch/services/add_two_ints_async.launch.xml
+[0.493s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/share/ament_index/resource_index/package_run_dependencies/demo_nodes_cpp
+[0.493s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/share/ament_index/resource_index/parent_prefix_path/demo_nodes_cpp
+[0.494s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/share/demo_nodes_cpp/environment/ament_prefix_path.sh
+[0.494s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/share/demo_nodes_cpp/environment/ament_prefix_path.dsv
+[0.494s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/share/demo_nodes_cpp/environment/path.sh
+[0.495s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/share/demo_nodes_cpp/environment/path.dsv
+[0.495s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/share/demo_nodes_cpp/local_setup.bash
+[0.495s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/share/demo_nodes_cpp/local_setup.sh
+[0.495s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/share/demo_nodes_cpp/local_setup.zsh
+[0.496s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/share/demo_nodes_cpp/local_setup.dsv
+[0.496s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/share/demo_nodes_cpp/package.dsv
+[0.496s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/share/ament_index/resource_index/packages/demo_nodes_cpp
+[0.496s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/share/ament_index/resource_index/rclcpp_components/demo_nodes_cpp
+[0.496s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/share/demo_nodes_cpp/cmake/demo_nodes_cppConfig.cmake
+[0.497s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/share/demo_nodes_cpp/cmake/demo_nodes_cppConfig-version.cmake
+[0.498s] -- Installing: /home/student18/ros2_ws/install/demo_nodes_cpp/share/demo_nodes_cpp/package.xml
+[0.499s] Invoked command in '/home/student18/ros2_ws/build/demo_nodes_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/student18/ros2_ws/build/demo_nodes_cpp
