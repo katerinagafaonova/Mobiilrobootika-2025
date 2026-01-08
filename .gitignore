@@ -12,3 +12,6 @@ Thumbs.db
 *.swp
 *.swo
 *.swn
+
+# Ignore old root src (do not use for assignments)
+/src/
