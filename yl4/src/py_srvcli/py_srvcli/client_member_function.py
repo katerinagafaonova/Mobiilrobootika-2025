@@ -1,16 +1,4 @@
-# Copyright 2016 Open Source Robotics Foundation, Inc.
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
+import sys
 
 from example_interfaces.srv import AddTwoInts
 
@@ -27,30 +15,40 @@ class MinimalClientAsync(Node):
             self.get_logger().info('service not available, waiting again...')
         self.req = AddTwoInts.Request()
 
-    def send_request(self):
-        self.req.a = 41
-        self.req.b = 1
+    def send_request(self, a, b):
+        self.req.a = int(a)
+        self.req.b = int(b)
         self.future = self.cli.call_async(self.req)
+        return self.future
 
 
 def main(args=None):
     rclpy.init(args=args)
 
+    if len(sys.argv) != 3:
+        print('Usage: ros2 run py_srvcli client A B')
+        return 1
+
     minimal_client = MinimalClientAsync()
-    minimal_client.send_request()
+    future = minimal_client.send_request(sys.argv[1], sys.argv[2])
 
     while rclpy.ok():
         rclpy.spin_once(minimal_client)
-        if minimal_client.future.done():
-            response = minimal_client.future.result()
-            minimal_client.get_logger().info(
-                'Result of add_two_ints: for %d + %d = %d' %
-                (minimal_client.req.a, minimal_client.req.b, response.sum))
+        if future.done():
+            try:
+                response = future.result()
+            except Exception as e:
+                minimal_client.get_logger().info(f'Service call failed {e!r}')
+            else:
+                minimal_client.get_logger().info(
+                    f'Result of add_two_ints: for {minimal_client.req.a} + {minimal_client.req.b} = {response.sum}'
+                )
             break
 
     minimal_client.destroy_node()
     rclpy.shutdown()
+    return 0
 
 
 if __name__ == '__main__':
-    main()
+    raise SystemExit(main())
