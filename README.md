@@ -1,11 +1,11 @@
-# Mobiilrobootika (ROS 2)  ülesanded
+# Mobiilrobootika (ROS 2)  Ylesanded
 
-See repository sisaldab kõik kursuse ROS 2 ülesanded eraldi kaustades.
+See repository sisaldab kÃµik kursuse ROS 2 ylesanded eraldi kaustades.
 
 ## Struktuur
-- `yl1/`  Ül1: ROS 2 tööruumi loomine ja overlay kontroll
-- `yl2/`  Ül2: ROS 2 Python paketi loomine
+- `yl1/`  Ãyl1: ROS 2 tÃ¶Ã¶ruumi loomine ja overlay kontroll
+- `yl2/`  Ãyl2: ROS 2 Python paketi loomine
 - jne
 
-Igas ülesande kaustas on eraldi `README.md`, mis kirjeldab, kuidas ülesannet ehitada ja k�itada.
+
 
