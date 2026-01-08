@@ -1,4 +1,0 @@
-Invoking command in '/home/student18/ros2_ws/build/dummy_map_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student18/ros2_ws/build/dummy_map_server -- -j4 -l4
-Invoked command in '/home/student18/ros2_ws/build/dummy_map_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student18/ros2_ws/build/dummy_map_server -- -j4 -l4
-Invoking command in '/home/student18/ros2_ws/build/dummy_map_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/student18/ros2_ws/build/dummy_map_server
-Invoked command in '/home/student18/ros2_ws/build/dummy_map_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/student18/ros2_ws/build/dummy_map_server
